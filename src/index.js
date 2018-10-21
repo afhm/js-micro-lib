@@ -49,15 +49,3 @@ var _ = (function () {
 	return methods;
 
 })();
-
-var sandwich = _.get('.sandwich');
-console.log(sandwich);
-
-// Get all elements with the .sandwich class
-var sandwiches = _.getAll('.sandwich');
-console.log(sandwiches);
-
-// Listen for clicks on the DOM
-_.on(document, 'click', function (event) {
-	console.log('clicked!', event);
-});
